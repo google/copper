@@ -72,6 +72,10 @@ def main():
           'pyusb',
           'usbinfo>=1.1'
       ],
+      setup_requires=['pytest-runner'],
+      tests_require=[
+          'pytest',
+      ],
   )
 
   setup(**setup_data)
