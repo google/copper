@@ -10,3 +10,5 @@ More information can be found in the
 [documentation](https://pycopper.readthedocs.io/en/latest/).
 
 While developed by Googlers, Copper is not an official Google product.
+
+[![Build Status](https://travis-ci.org/google/copper.svg?branch=master)](https://travis-ci.org/google/copper)
