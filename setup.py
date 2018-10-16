@@ -43,6 +43,7 @@ def main():
       description=PKG_DESC,
       long_description=PKG_LONG_DESC,
       license='Apache 2 license',
+      url='https://github.com/google/copper',
       platforms=['Linux', 'Darwin'],
       classifiers=[
           'Development Status :: 5 - Production/Stable',
