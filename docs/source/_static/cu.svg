@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <font-face font-family="Google Sans" font-size="96" panose-1="2 11 5 3 3 5 2 4 2 4" units-per-em="1000" underline-position="-118" underline-thickness="84" slope="0" x-height="510" cap-height="716" ascent="966.0034" descent="-305.99976" font-weight="400">
+      <font-face-src>
+        <font-face-name name="GoogleSans-Regular"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Google Sans" font-size="36" panose-1="2 11 5 3 3 5 2 4 2 4" units-per-em="1000" underline-position="-118" underline-thickness="84" slope="0" x-height="510" cap-height="716" ascent="966.0034" descent="-305.99976" font-weight="400">
+      <font-face-src>
+        <font-face-name name="GoogleSans-Regular"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.8.1 
+    <dc:date>2018-09-28 03:44:40 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" fill-opacity="1" stroke-dasharray="none" stroke="none" stroke-opacity="1" fill="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <path d="M 50 0 L 150 0 C 177.61424 16908844e-22 200 22.385763 200 50 L 200 150 C 200 177.61424 177.61424 200 150 200 L 50 200 C 22.385763 200 33817688e-22 177.61424 0 150 L 7105427e-21 50 C 10487196e-21 22.385763 22.385763 1251997e-20 50 14210855e-21 Z" fill="#4285f4"/>
+        <text transform="translate(5 39)" fill="white">
+          <tspan font-family="Google Sans" font-size="96" font-weight="400" fill="white" x="33.224" y="93">Cu</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <text transform="translate(5 8)" fill="white">
+          <tspan font-family="Google Sans" font-size="36" font-weight="400" fill="white" x="75.524" y="35">29</tspan>
+          <tspan font-family="Google Sans" font-size="36" font-weight="400" fill="white" x="50.972" y="173">63.55</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
