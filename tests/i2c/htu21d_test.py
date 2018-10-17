@@ -26,7 +26,7 @@ class Htu21dTest(unittest.TestCase):
 
   def test_temperature_normal(self):
     read_queue = self.mock_i2c.read_queue[htu21d.TRIGGER_TEMP_HOLD]
-    read_queue.append(bytearray('\00\00\00'))
+    read_queue.append(bytearray(b'\00\00\00'))
     expected_temperature = -46.85
     try:
       actual_temperature = self.dut.temperature
@@ -51,7 +51,7 @@ class Htu21dTest(unittest.TestCase):
 
   def test_humidity_normal(self):
     read_queue = self.mock_i2c.read_queue[htu21d.TRIGGER_HUM_HOLD]
-    read_queue.append(bytearray('\00\00\00'))
+    read_queue.append(bytearray(b'\00\00\00'))
     expected_humidity = 0.0
     try:
       actual_humidity = self.dut.humidity
@@ -77,7 +77,7 @@ class Htu21dTest(unittest.TestCase):
   def test_reset(self):
     self.dut.reset()
     last_write = self.mock_i2c.write_history.pop(0)
-    self.assertEqual(last_write, bytearray('\xfe'),
+    self.assertEqual(last_write, bytearray(b'\xfe'),
                      'Last write {} differs from "\xfe".'.format(last_write))
 
 
