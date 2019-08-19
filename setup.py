@@ -16,12 +16,12 @@
 """Python setup file for copper module."""
 
 
-from setuptools import setup
+import setuptools
 
 PKG_NAME = 'copper'
 PKG_VERSION_MAJOR = 0
 PKG_VERSION_MINOR = 9
-PKG_VERSION_MICRO = 0
+PKG_VERSION_MICRO = 1
 PKG_VERSION = '{major}.{minor}.{micro}'.format(
     major=PKG_VERSION_MAJOR,
     minor=PKG_VERSION_MINOR,
@@ -39,7 +39,7 @@ def main():
   setup_data = dict(
       name=PKG_NAME,
       version=PKG_VERSION,
-      packages=[PKG_NAME],
+      packages=setuptools.find_packages(exclude=['tests']),
       description=PKG_DESC,
       long_description=PKG_LONG_DESC,
       license='Apache 2 license',
@@ -78,7 +78,7 @@ def main():
       ],
   )
 
-  setup(**setup_data)
+  setuptools.setup(**setup_data)
 
 
 if __name__ == '__main__':
